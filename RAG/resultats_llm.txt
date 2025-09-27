@@ -1,0 +1,4 @@
+Moyenne pour llama2 -->  F1: 1.0000	 R: 1.000000001882252	 P: 1.0
+Moyenne pour mistral --> F1: 1.0000	 R: 1.000000001882252	 P: 1.0
+Moyenne pour gemma -->   F1: 1.0000	 R: 1.000000001882252	 P: 1.0
+

@@ -1,0 +1,320 @@
+### Question/Réponse 1 ###
+Q1: What is the status of data acquisition for the Android devices tested in the UFED InField Kiosk v7.5.0.875?
+R1: The data acquisition for most Android devices, including Galaxy S3, Galaxy S5, LG G4, LG G5, Motorola Droid Turbo 2, Galaxy S6 Edge Plus, Samsung J3, Google Pixel XL, and the Ellipsis 8, was successful. However, to get a successful acquisition from the LG G4, it may require trying to acquire the device a few times.
+
+Q2: What type of data is available for browsing history, bookmarks, and emails in this test?
+R2: Though these types of internet-related data are not supported under the tool's viewer, it was reported for several devices such as Samsung Galaxy S3, LG G4, Galaxy S7 Edge, Galaxy Note 3 (email = NA), and Ellipsis 8 (email = NA).
+
+Q3: What is the status of contact data (PIM Data Contacts) in the tested Android devices?
+R3: The status of contact data was mostly partial across all the devices. Some contacts were successfully acquired, but not all of them.
+
+### Question/Réponse 2 ###
+Q1: What is the issue with acquiring GPS data from iOS devices mentioned in the report?
+R1: The report states that GPS data (i.e., longitude/latitude coordinates, address) is not reported for the iPhone 4 and the iPhone 5S.
+
+Q2: How are MMS messages reported in the tool for iOS devices?
+R2: MMS messages are reported under the “Chats/Messages” category, there is no separate MMS category like there is for SMS.
+
+Q3: Can stand-alone files (.txt, .pdf documents) be viewed using the tool's viewer for iOS devices?
+R3: No, stand-alone files are not supported under the tool’s viewer for iOS devices. However, they were reported for the iPhone 4 and the iPhone 5S.
+
+### Question/Réponse 3 ###
+Q1: What is the main focus of the digital evidence management guidelines provided by the referred document?
+R1: The main focus of the digital evidence management guidelines is to provide specific guidance for certain activities in the handling of digital evidence, particularly during identification, collection, acquisition, and preservation phases.
+
+Q2: What jurisdictions does the document apply to?
+R2: The document does not make any references to specific jurisdictions but aims to facilitate the exchange of potential evidence between different jurisdictions. It is applicable to both corporate and legal contexts.
+
+Q3: What are the roles of DEFR (First Responder) and DES (Specialist) as defined in the document?
+R3: The role of a DEFR (First Responder) is an individual who is authorized, trained, and qualified to act first on a scene (incident scene) to collect and acquire digital evidence. They have explicit permission to perform these tasks, with the possibility that they may not possess all three characteristics mentioned if local law applicable overrides. A DES (Specialist), in addition to performing DEFR duties, has specialized knowledge to handle a large quantity of technology.
+
+### Question/Réponse 4 ###
+Q1: What is the primary purpose of the ISO 27037 standard?
+R1: The ISO 27037 standard provides guidance on the collection, acquisition, and preservation of digital evidence from various devices and circumstances.
+
+Q2: Which types of devices and situations are covered by the ISO 27037 standard?
+R2: The ISO 27037 standard covers digital storage media used in standard computers, mobile phones, PDAs, personal electronic devices (PEDs), mobile navigation systems, digital still and video cameras (including CCTV), standard computers with network connections, networks based on TCP/IP and other digital protocols, and devices with similar functions.
+
+Q3: What should be done to ensure the integrity of digital evidence during its preservation according to ISO 27037?
+R3: To preserve digital evidence, it is necessary to protect its integrity to make it usable for investigation purposes. This includes demonstrating that the evidence has not changed since its collection and providing documentation and justification of all actions leading to any changes in the evidence.
+
+### Question/Réponse 5 ###
+Q1: What is the purpose of the Int 13h BIOS function in IBM/MS computers?
+R1: The Int 13h BIOS function is used for accessing disk drives in IBM/MS computers. It provides various commands for operations like reading, writing, and formatting data on disk drives.
+
+Q2: Can you explain what the extended functions of Int 13h BIOS are?
+R2: The extended functions of Int 13h BIOS (AH = 41h) allow for advanced disk drive operations beyond the basic read and write functions, such as installing and checking software, locking/unlocking drives, ejecting media, extended seeks, and more.
+
+Q3: What is the purpose of the AX = 5001h packet command in Enhanced Disk Drive Spec v3.0?
+R3: The AX = 5001h packet command in Enhanced Disk Drive Spec v3.0 allows for sending complex commands to disk drives that require multiple parameters, allowing more flexibility and control over the drive operations.
+
+### Question/Réponse 6 ###
+Q1: What is the purpose of the document "Windows Registry Forensic Tool Specification - Public Draft 1 of Version 1.0 for Public Comment"?
+R1: The document defines requirements for Windows registry forensic tools that parse the registry hive file format, extract interpretable data from registry hive files, and tests methods used to determine whether a specific tool meets the requirements for producing accurate results.
+
+Q2: What are test assertions and why are they important in this context?
+R2: Test assertions are statements used to derive test assertions that define expectations of a tool or application. They are important as they define conditions that can be checked after a test is executed, helping to ensure the accuracy and reliability of the tool being tested.
+
+Q3: What is the main website where updated versions of this document and related resources can be found?
+R3: The main website is www.cftt.nist.gov. Updated versions of the document will be posted there.
+
+### Question/Réponse 7 ###
+Q1: What is the focus of this document?
+R1: The focus of this document is to provide a specification for Windows Registry Forensic Tools that can handle hive files, hive sets, and disk image files containing at least one Windows system partition.
+
+Q2: What is the purpose of a registry hive file in this context?
+R2: A registry hive file is an offline registry file that physically stores registry objects including keys, values, and data. A primary hive file may exist along with multiple transaction log files.
+
+Q3: What is a hive set in the context of this document?
+R3: A hive set consists of primary hives and their transaction log files, which include SAM, SYSTEM, SOFTWARE, SECURITY, and pairs of [NTUSER, USRCLASS] for each Windows account. Multiple hive sets can be found from Restore Points (Windows XP and earlier) as well as Volume Shadow Copies (Windows Vista and later) stored within a Windows system partition if relevant features are turned on.
+
+### Question/Réponse 8 ###
+Q1: What is the primary objective of the Computer Forensics Tool Testing (CFTT) project at the National Institute of Standards and Technology (NIST)?
+R1: The primary objective of the CFTT project at NIST is to establish a methodology for testing forensic software tools, ensuring that they consistently produce accurate and objective results.
+
+Q2: What is the aim of adhering to a disciplined testing procedure, established test criteria, test sets, and test hardware requirements in the CFTT project?
+R2: The aim of following a disciplined testing procedure, established test criteria, test sets, and test hardware requirements is to provide necessary feedback information to toolmakers so they can improve their tool’s effectiveness. This also benefits end-users by making them more informed about choices for acquiring and using computer forensic tools.
+
+Q3: Who are the key supporters of the CFTT program apart from the Department of Homeland Security (DHS), the National Institute of Justice (NIJ), and the National Institute of Standards and Technology Special Program Office (SPO) and Information Technology Laboratory (ITL)?
+R3: The Federal Bureau of Investigation, the U.S. Department of Defense Cyber Crime Center, U.S. Internal Revenue Service Criminal Investigation Division Electronic Crimes Program, and the U.S. Department of Homeland Security’s Bureau of Immigration and Customs Enforcement, U.S. Customs and Border Protection and U.S. Secret Service are among the other organizations that support the CFTT program.
+
+### Question/Réponse 9 ###
+Q1: What should happen when a Windows registry forensic tool is used to open an individual hive file that is normal?
+R1: The tool should complete the opening process without encountering any errors.
+
+Q2: How can we confirm if a Windows registry forensic tool correctly implements its artifact extraction features?
+R2: We can compare the extracted results from each tool with known data to verify whether the artifact extraction features are correctly implemented, rather than evaluating the number of artifacts that can be extracted.
+
+Q3: What should happen if a Windows registry forensic tool encounters STRING data containing non-ASCII characters during processing?
+R3: The tool should present the STRING data in their native format to ensure proper interpretation and readability.
+
+### Question/Réponse 10 ###
+Q1: What is the purpose of this document?
+R1: The purpose of this document is to determine a tool's ability to accurately process specific registry objects stored within a reference registry dataset. It is related to Windows Registry Forensic Tool testing.
+
+Q2: What does the acronym 'WRT' stand for in the assertion identifiers (e.g., WRT -CA-01)?
+R2: In the context of this document, 'WRT' stands for Windows Registry Tool.
+
+Q3: Can you explain what a hive file is in the context of this document?
+R3: A hive file is an offline registry file that physically stores registry objects including keys, values, and data. A primary hive file may exist along with multiple transaction log files.
+
+### Question/Réponse 11 ###
+Q1: What are some examples of registry hive files in Windows operating system?
+R1: Some examples of registry hive files in Windows include NTUSER.dat, SAM, SECURITY, SYSTEM, and SOFTWARE. Each of these files stores different types of settings and configurations for the system and its applications.
+
+Q2: How can a corrupted primary registry file be processed?
+R2: A corrupted primary registry file can be processed by using specialized tools that are capable of handling such issues. These tools can help in recovering the data from the corrupted file, but it's important to note that not all corruption can be fixed and some data loss may occur.
+
+Q3: What are test cases for core features when dealing with Windows Registry?
+R3: Test cases for core features of Windows Registry could include processing a primary file containing various data types, keys with long names, values with large data, files containing non-ASCII characters, and manipulated registry files, among others. These test cases help in ensuring the tool or software is functioning correctly when dealing with real-world registry scenarios.
+
+### Question/Réponse 12 ###
+Q1: What is the tool X-Ways Forensics designed to do?
+R1: The tool X-Ways Forensics is designed to image, clone and restore data from hard drives and other secondary storage.
+
+Q2: What issues did the tool encounter with NTFS partitions during acquisition and restoration of images?
+R1: During acquisition and restoration of images for NTFS partitions, some sectors on the target partitions did not match the original source partitions due to changes made by Windows, an artifact of the tool’s operating environment (Windows 7 and Windows XP). However, it is important to note that these differences are not errors within the tool itself.
+
+Q3: What should a user be aware of when restoring an image of a partition in this tool?
+R3: A user should be aware that if they select a Windows drive letter or a partition containing a file system as the destination, Windows may make changes to the file system metadata on the destination partition, causing a difference of several sectors between the source and destination partitions. This issue is not related to the tool; it is noted to ensure users understand the differences between restoring an image to a logical drive versus restoring an image to a partition formatted with a file system versus restoring an image to an unformatted destination partition.
+
+### Question/Réponse 13 ###
+Q1: What was the purpose of filling a drive with known data in this test setup?
+R1: The purpose of filling a drive with known data using the diskwipe program is to create a consistent and identifiable pattern throughout the entire drive, allowing for easy comparison between source drives, destination drives, and image files.
+
+Q2: In what cases was it necessary to create a reference drive for comparison in test case DA-09?
+R2: In test case DA-09, a duplicate drive without faulty sectors was created as a reference drive for comparison with the source drive that has intentionally introduced faulty sectors. This is done to identify and evaluate any differences or errors that may have occurred during the imaging process.
+
+Q3: How are physical device clones and partition clones compared in test cases that create a clone of either?
+R3: For physical device clones, such as DA-01, DA-04, etc., the destination drive is compared to the source drive using the diskcmp program from the FS-TST package. In contrast, for partition clones, i.e., DA-02, DA-20, etc., the destination partition is compared to the source partition with the partcmp program. For a destination created from an image file, either diskcmp (for physical device clones) or partcmp (for partition clones) is used for comparison with the source that was acquired to create the image file.
+
+### Question/Réponse 14 ###
+Q1: What type of drive access was used in this test case?
+R1: The drive access used in this test case is Access Interface AI (AI-SRC).
+
+Q2: Was a clone created during the acquisition process in this test case?
+R2: Yes, an unaligned clone was created as part of the acquisition process in this test case.
+
+Q3: What was the model and serial number of the source drive used in this test case?
+R3: The source drive used in this test case is a WDC WD800JD-32HK with the serial number WD-WMAJ91510044.
+
+### Question/Réponse 15 ###
+Q1: What type of drive was used as the source in this test case?
+R1: The source drive used in this test case is a Quantum ATLAS10K2- TY092J.
+
+Q2: What was the result of the comparison between the original and clone drives?
+R2: The comparison showed that all sectors matched, with no differences found between the two drives.
+
+Q3: Did the tool used in this test case calculate hashes by block during the acquisition process?
+R3: No, the tool used in this test case does not have an option to calculate hashes by block during the acquisition process.
+
+### Question/Réponse 16 ###
+Q1: What type of drive was used in this test case?
+R1: The drive used in this test case is an EXFAT-formatted SATA drive.
+
+Q2: Was a clone created during the acquisition process?
+R2: Yes, a clone was created as part of the acquisition process.
+
+Q3: How were the excess sectors on the destination drive handled in this test case?
+R3: The excess sectors on the destination drive were not changed during the acquisition process. They remained unchanged.
+
+### Question/Réponse 17 ###
+Q1: What was the size of the data acquired in this test case?
+R1: The data acquired in this test case consisted of 2,104,452 sectors.
+
+Q2: What type of digital source was acquired in this test case?
+R2: In this test case, a digital source of type DS was acquired.
+
+Q3: What execution environment was the tool running in during this test case?
+R3: The tool was executing in the XE execution environment during this test case.
+
+### Question/Réponse 18 ###
+Q1: What is the operating system on the drive being analyzed in this log?
+R1: The operating system on the drive being analyzed is NTFS (Windows).
+
+Q2: How many sectors were compared during the comparison of original and clone drive?
+R2: The number of sectors compared during the comparison was 27744192.
+
+Q3: What action was performed on the destination drive prior to cloning it in this log?
+R3: The sectors of the destination drive were wiped before cloning in this log. Specifically, 8 sectors were wiped.
+
+### Question/Réponse 19 ###
+Q1: What type of drive was used in this test case?
+R1: The drive used was an IDE drive.
+
+Q2: Was a clone created during the acquisition process?
+R2: Yes, a clone was created during the acquisition process.
+
+Q3: Was the source drive changed or modified in any way during the acquisition process?
+R3: No, the source drive remained unchanged and intact throughout the acquisition process.
+
+### Question/Réponse 20 ###
+Q1: What was the source of the data acquired in this test case?
+R1: The source of the data acquired in this test case was a physical device connected via an access interface (AI).
+
+Q2: What type of file system was used to store the created image files?
+R2: In this test case, the file system type FS was used to store the created image files.
+
+Q3: Was the source drive rehashed after the acquisition process, and if so, what was the resulting hash value for the source data?
+R3: Yes, the source drive was rehashed after the acquisition process. The resulting SHA1 hash value for the source data was 4951236428C36B944E62E8D65862DCBEF05F282C.
+
+### Question/Réponse 21 ###
+Q1: What was the type of source used in this test case?
+R1: The source used in this test case was EXFAT.
+
+Q2: What was the execution environment for this test case in X-Ways Forensics 16.2 SR-5?
+R2: The execution environment for this test case was Windows.
+
+Q3: Was a multifile image created as a result of this test case?
+R3: Yes, a multifile image was created in this test case.
+
+### Question/Réponse 22 ###
+Q1: What type of digital source was acquired in the test case DA-07-F1?
+R1: The digital source that was acquired in the test case DA-07-F1 was a DS type.
+
+Q2: What execution environment was used for this test case?
+R2: For this test case, the execution environment used was XE.
+
+Q3: Was the image file created on a file system type FS as expected in the test case DA-07-F1?
+R3: Yes, the image file was created on a file system type FS as expected in the test case DA-07-F1.
+
+### Question/Réponse 23 ###
+Q1: What is the operating system used by the tool in this log?
+R1: The operating system used by the tool in this log is Microsoft Windows [Version 6.1.7600], November 2013.
+
+Q2: Was MD5 selected as the hash function for the tool's operation?
+R2: Yes, MD5 was selected as the hash function for the tool's operation according to the log.
+
+Q3: What is the image format used for creating the image in this log?
+R3: The image format used for creating the image in this log is dd (as denoted by the 'image-format dd' in the tool settings).
+
+### Question/Réponse 24 ###
+Q1: What was the action performed on the destination drive in this log?
+R1: The destination drive setup had 156301488 sectors wiped with 50.
+
+Q2: How many sectors were compared between the original and clone drive?
+R2: 120103200 sectors were compared between the original and clone drive.
+
+Q3: What is the number of sectors that match between the original and clone drive as per this log?
+R3: 120102732 sectors match between the original and clone drive according to this log.
+
+### Question/Réponse 25 ###
+Q1: What is the size of the first image file created during the acquisition process on June 14, 2013?
+R1: The first image file created during the acquisition process on June 14, 2013 was 39946879853 sectors in size.
+
+Q2: What is the total capacity of the hard disk from which data was acquired on June 14, 2013?
+R2: The total capacity of the hard disk from which data was acquired on June 14, 2013 was 80,026,361,856 bytes or approximately 74.5 GB.
+
+Q3: What was the hash value (MD5) of the source data during the acquisition process on June 14, 2013?
+R3: The hash value (MD5) of the source data during the acquisition process on June 14, 2013 was 0A49B13D91FA9DA87CEEE9D006CB6FD6.
+
+### Question/Réponse 26 ###
+Q1: What was the original source drive used in this operation?
+R1: The original source drive used was a WD Blue 1TB, model number WD10EZEX.
+
+Q2: What was the destination drive used for cloning the original source drive?
+R2: The destination drive used for cloning the original source drive was a Crucial MX500 1TB SSD, model number CT1000MX500SSD1.
+
+Q3: What were the results of the comparison between the original source drive and the cloned destination drive?
+R3: The comparison showed that all sectors matched between the original source drive and the cloned destination drive with no differences in bytes. There were also no read errors reported during the comparison process.
+
+### Question/Réponse 27 ###
+Q1: Why did the tool report that an unaligned clone was created when the expected result was for an aligned clone?
+R1: The tool might have used a different definition of "alignment" or there could be an issue with the source or destination drive that caused the clone to be unaligned. It would be beneficial to investigate further to determine the root cause and ensure proper alignment in future operations.
+
+Q2: What does it mean that 3 sectors differ between the original and cloned drive?
+R2: The difference between the sectors means that the data present in those specific locations on the source drive is not identical to the data on the destination drive after the cloning operation. This could be due to a variety of reasons, such as hardware errors, software bugs, or incorrect settings during the cloning process.
+
+Q3: How can the tool be configured to ensure that aligned clones are created in future operations?
+R3: To ensure that aligned clones are created, it is essential to verify the alignment options within the tool's configuration settings before initiating the clone operation. Additionally, ensuring that the source and destination drives are compatible and free of errors will help minimize discrepancies during the cloning process. It may also be necessary to consult the tool's documentation or reach out to technical support for specific guidance on aligning clones with that particular software.
+
+### Question/Réponse 28 ###
+Q1: What was the process followed during the comparison of the original drive and the clone drive?
+R1: The process involved comparing sectors on both drives. A total of 8401932 sectors were compared, out of which only 3 sectors differed.
+
+Q2: How many bytes were found to be different between the original drive and the clone drive?
+R2: Only 3 bytes were found to be different in the comparison.
+
+Q3: What was the elapsed time for the comparison process between the original drive and the clone drive?
+R3: The comparison process took 0 hours, 3 minutes, and 52 seconds to complete.
+
+### Question/Réponse 29 ###
+Q1: What was the objective of the test case DA-14-F32X X-Ways Forensics 16.2 SR -5?
+R1: The objective of the test case DA-14-F32X was to create an unaligned clone from an image file using X-Ways Forensics tool.
+
+Q2: What are the assertions for the test case DA-14-F32X?
+R2: The assertions for the test case include checking if the execution environment is XE, creating a clone from an image file, using interface AI to write to the clone device, ensuring each sector written to the clone is accurately written to the same disk address on the clone that the sector occupied on the digital source, preserving any excess sectors on a clone destination device, and logging significant information accurately in the log file.
+
+Q3: What were the expected results not achieved in the test case DA-14-F32X?
+R3: In the test case DA-14-F32X, the expected results that were not achieved were related to creating an unaligned clone without any differences between the source and the clone. However, 3 sectors differed in the cloned image, which was an unexpected result.
+
+### Question/Réponse 30 ###
+Q1: What is the total number of sectors on the source drive?
+R1: The total number of sectors on the source drive is 7812062.
+
+Q2: How many sectors on the destination drive are different from the source drive?
+R2: There are 139 sectors on the destination drive that differ from the source drive.
+
+Q3: What is the size in bytes of the data that differs between the source and destination drives, based on the sector count given?
+R3: The size in bytes of the data that differs between the source and destination drives is 15295 bytes.
+
+### Question/Réponse 31 ###
+Q1: What is the purpose of the tests described in these case summaries?
+R1: The tests are to verify that the X-Ways Forensics software can create an unaligned clone from an image file accurately and without modification.
+
+Q2: What are the assertions being tested in these cases?
+R2: The assertions being tested include whether the tool executes in the correct environment (XE), if a clone is created from an image file when requested, if the clone is written to the destination device using the correct interface (DST-AI), if sectors are accurately written to the same disk address on the clone that they occupied on the source, and if any excess sectors on the destination device remain unchanged.
+
+Q3: What is the significance of the 'Log' section in these case summaries?
+R3: The 'Log' section provides details about the process being executed, including the source and destination drives, the number of sectors copied, any errors encountered during the process, and an extract from the logfile.txt file that contains more detailed information about the operation. This information is useful for verifying the accuracy and completeness of the clone creation process.
+
+### Question/Réponse 32 ###
+Q1: What is the source drive's SHA-1 hash in the first test case?
+R1: The source drive's SHA-1 hash in the first test case is "< 4A6941F133 7A8A22B10FC844B4D7FA6158BECB82 >"
+
+Q2: What was the total number of sectors in the destination drive during the second test?
+R2: The total number of sectors in the destination drive during the second test was 4001760 sectors.
+
+Q3: Was a truncated clone created in the second test and was the user notified about it?
+R3: Yes, a truncated clone was created in the second test and the user was notified about it.
+

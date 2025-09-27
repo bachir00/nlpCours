@@ -1,0 +1,320 @@
+### Question/Réponse 1 ###
+Q1: What are the limitations of UFED InField Kiosk v7.5.0.875 in acquiring internet-related data?
+R1: UFED InField Kiosk v7.5.0.875 does not support browsing history, bookmarks, or emails under its viewer. However, this data was reported for certain devices like the Samsung Galaxy S3 and LG G4.
+
+Q2: How can I improve the chances of successfully acquiring data from the LG G4 using UFED InField Kiosk?
+R2: For the LG G4, you may need to attempt the acquisition multiple times. This may also apply to other devices.
+
+Q3: Which document types are not supported under UFED InField Kiosk's viewer?
+R3: UFED InField Kiosk does not support standalone files such as .txt or .pdf documents in its viewer. However, these documents were reported for a few devices.
+
+### Question/Réponse 2 ###
+Q1: What limitations were encountered during the memory acquisition process for iOS devices?
+R1: The tool reported incomplete acquisition of calendar entries, lack of reporting for GPS data, and issues with group SMS message recipients.
+
+Q2: Which data types were not supported by the tool's viewer for iOS devices?
+R2: Stand-alone files (.txt, .pdf documents) and internet-related data (emails) were not supported.
+
+Q3: What was the status of email acquisition for iOS devices?
+R3: The tool claims to offer email acquisition, but it actually does not support this feature for iOS devices.
+
+### Question/Réponse 3 ###
+Q1: Qual è l'ambito di applicazione della norma ISO/IEC 27037?
+R1: La norma ISO/IEC 27037 fornisce linee guida specifiche per specifiche attività nella gestione delle evidenze digitali, applicabile a contesti aziendali e processuali.
+
+Q2: Cosa significa "digital evidence"?
+R2: Digital evidence è un termine che si riferisce a informazioni o dati memorizzati o trasmessi in forma binaria su cui si può fare affidamento come evidenza.
+
+Q3: Qual è la differenza tra DEFR e DES?
+R3: Il DEFR (First Responder) è una persona qualificata ad agire sulla scena per raccogliere e acquisire le evidenze digitali, mentre il DES (Specialist) ha conoscenza specializzata per gestire una grande quantità di tecnologie.
+
+### Question/Réponse 4 ###
+Q1: What is the primary purpose of the ISO 27037 standard?
+R1: The ISO 27037 standard provides guidance on the identification, collection, acquisition, and preservation of digital evidence from various devices and technologies.
+
+Q2: Which step in the digital evidence process involves creating a copy of the evidence and documenting the methods used?
+R2: The acquisition step in the digital evidence process involves creating a copy of the evidence (e.g., the content of a hard drive) and documenting the methods used.
+
+Q3: What is the importance of preserving digital evidence?
+R3: Preserving digital evidence is crucial to protect its integrity and ensure its usability for investigation purposes by demonstrating that the evidence has not been changed since its collection.
+
+### Question/Réponse 5 ###
+Q1: What is the purpose of the "Sticky_max" setting in QUICKCACHE II v4.20?
+R1: The "Sticky_max" setting adjusts the caching algorithm to prioritize frequently accessed sectors, reducing latency for commonly used data.
+
+Q2: How can the IBM/MS INT 13 Extensions be used for extended media changes?
+R2: The IBM/MS INT 13 Extensions provide the "EXTENDED MEDIA CHANGE" command, which allows for handling media changes during disk operations.
+
+Q3: What is the function of the "Inquiry" command in the Seagate ST01/ST02 inquiry mode?
+R3: The "Inquiry" command retrieves detailed information about the connected Seagate ST01/ST02 disk drive, including its model, configuration, and capabilities.
+
+### Question/Réponse 6 ###
+Q1: What are the requirements for Windows registry forensic tools defined in the specification?
+R1: The specification defines requirements for Windows registry forensic tools that can parse and interpret registry hive files, extract interpretable data from them, and identify abnormal information in corrupted or manipulated registry hive files.
+
+Q2: What is the purpose of the test plan document mentioned in the specification?
+R2: The test plan document contains test assertions and test cases that are used to determine whether a specific tool meets the requirements for producing accurate results.
+
+Q3: Where can I find updated versions of the specification?
+R3: Updated versions of the specification can be found on the CFTT website, www.cftt.nist.gov.
+
+### Question/Réponse 7 ###
+Q1: What is the primary purpose of the Windows registry?
+R1: The primary purpose of the Windows registry is to store critical data that is essential for the operation of Windows and the applications and services running on Windows.
+
+Q2: What is the difference between a primary hive file and a transaction log file?
+R2: A primary hive file physically stores registry objects, while a transaction log file contains changes made to the registry after the primary hive file was created.
+
+Q3: What is the significance of hive sets in digital forensics?
+R3: Hive sets are important in digital forensics as they can provide a snapshot of the registry at different points in time, which can be used to identify changes made to the system.
+
+### Question/Réponse 8 ###
+Q1: What is the primary goal of the Computer Forensic Tool Testing (CFTT) project?
+R1: The primary goal is to establish a methodology for testing forensic software tools to ensure their consistency, accuracy, and objectivity in producing results.
+
+Q2: What organizations are involved in the CFTT program?
+R2: The program is a joint collaboration between the Department of Homeland Security, the National Institute of Justice, the National Institute of Standards and Technology, and several other government agencies.
+
+Q3: What is the significance of testing forensic tools against specifications?
+R3: Testing tools against specifications provides measurable assurance that they adhere to established standards and can produce reliable results in computer forensic investigations.
+
+### Question/Réponse 9 ###
+Q1: How does the measurement for assertion WRT-CA-01 ensure that the tool can accurately open normal registry files?
+R1: The measurement process involves testing the tool's ability to open various normal registry files and verifying whether the opening process is successful without encountering errors.
+
+Q2: What is the purpose of the assertion WRT-AO-08 related to non-ASCII characters in extracted data?
+R2: The assertion ensures that tools can correctly present STRING data containing non-ASCII characters in their native format, ensuring accurate interpretation of the extracted data.
+
+Q3: How does the measurement for assertion WRT-AO-07 verify the accuracy of artifact extraction features in different registry forensic tools?
+R3: The measurement process involves comparing the extracted artifacts from each tool with known data to ensure that the tools are correctly implementing artifact extraction features.
+
+### Question/Réponse 10 ###
+Q1: What is the primary goal of the test assertions presented in Section 5.1 and 5.2?
+R1: The primary goal is to determine a tool's ability to accurately process specific registry objects stored within a reference registry dataset.
+
+Q2: What is the definition of a registry key?
+R2: A registry key is an object within the registry that contains values and additional subkeys like a directory (folder) in a hierarchical file system.
+
+Q3: What is the purpose of Volume Shadow Copy?
+R3: Volume Shadow Copy is a technology included in modern Microsoft Windows that allows taking manual or automatic backup copies of volumes, even when they are in use.
+
+### Question/Réponse 11 ###
+Q1: What is the purpose of the "Amcache.hve" file mentioned in the registry data?
+R1: The "Amcache.hve" file contains Windows Application Compatibility data, which is used to maintain compatibility with older applications and drivers.
+
+Q2: How does the WRT -TC-CR-04 test case handle corrupted primary files with wiped multiple blocks?
+R2: The WRT -TC-CR-04 test case processes corrupted primary files that contain wiped multiple blocks by randomly selecting among blocks having the hbin header structure.
+
+Q3: What is the potential impact of hidden keys and values on the processing of primary files in the WRT -TC-MR series of test cases?
+R3: The WRT -TC-MR series of test cases deals with manipulated primary files that contain hidden keys and values, potentially affecting the completeness and accuracy of data retrieval and manipulation operations.
+
+### Question/Réponse 12 ###
+Q1: What was the primary issue identified during the testing of X-Ways Forensics?
+R1: During testing, X-Ways Forensics was found to have discrepancies when cloning or restoring NTFS partitions, resulting in changes made by Windows that differed from the source partitions.
+
+Q2: How did the vendor address the observed anomaly?
+R2: The vendor acknowledged the issue in the X-Ways user manual, suggesting that imaging is generally preferable to cloning due to metadata protection.
+
+Q3: What potential consequences were mentioned regarding restoring an image to a partition with a file system?
+R3: Restoring an image to a partition containing a file system might trigger modifications in Windows metadata, leading to discrepancies between the source and destination partitions.
+
+### Question/Réponse 13 ###
+Q1: What is the purpose of creating reference hashes for a source drive?
+R1: Reference hashes are used to verify the integrity of the source drive and to detect any changes made during the cloning process.
+
+Q2: How does the setup of a source drive differ for test case DA -09?
+R2: For DA -09, source drives are initialized with diskwipe and then have faulty sectors activated.
+
+Q3: What is the anabad program used for in the DA -09 test case?
+R3: The anabad program is used to compare the faulty sector reference drive to a cloned version of the faulty sectors.
+
+### Question/Réponse 14 ###
+Q1: What is the purpose of the "CE65C4A3C3164D3EBAD58D33BB2415D29E260E1F88DC5A131B1C4C9C2945B8A9" hash value mentioned in the log?
+R1: The provided hash value is likely the SHA256 hash of the source drive, indicating the unique fingerprint of the digital source before any acquisition.
+
+Q2: What does the "unaligned clone" assertion in the test case mean?
+R2: An unaligned clone means that the cloned drive is not aligned to the block size of the source drive. This can potentially lead to performance issues due to misaligned data blocks.
+
+Q3: What is the function of the "Fast Write" mode in the test case?
+R3: The "Fast Write" mode implies that during clone creation, each sector is written only once to the destination drive, without performing any verification or checksum calculations. This mode is faster but less reliable than the default mode.
+
+### Question/Réponse 15 ###
+Q1: What was the purpose of wiping 15,630,148 sectors on the destination drive?
+R1: The purpose of wiping the sectors was to erase any existing data on the destination drive before copying the source drive.
+
+Q2: How many sectors were successfully copied during the process?
+R2: 17,938,985 sectors were successfully copied.
+
+Q3: What was the reason for the difference in the number of sectors between the source and destination drives?
+R3: The source drive had 13,836,250 sectors more than the destination drive. This could be due to various factors such as unallocated space or formatting differences.
+
+### Question/Réponse 16 ###
+Q1: What was the purpose of creating an unaligned clone in the test case?
+R1: The purpose of creating an unaligned clone was to verify that the tool can successfully create a clone of a source drive without affecting the original drive's data.
+
+Q2: How did the tool ensure that the source drive remained unchanged during the cloning process?
+R2: The tool verified that the source drive was unchanged by comparing the hash values of the source and cloned drives before and after the cloning process.
+
+Q3: What information does the 'Diffs range' section in the log file provide?
+R3: The 'Diffs range' section in the log file indicates that no sectors differed between the original and cloned drives, suggesting that the cloning process was successful and did not result in any data corruption.
+
+### Question/Réponse 17 ###
+Q1: What was the purpose of the test case DA-02-F16?
+R1: The test case aimed to acquire a digital source of type DS to an unaligned clone using X-Ways Forensics.
+
+Q2: How many sectors were successfully copied during the test case DA-02-F16?
+R2: 2,104,452 sectors were successfully copied during the test case.
+
+Q3: What was the outcome of the analysis in the X-Ways logfile?
+R3: The analysis confirmed that the expected results were achieved during the test case.
+
+### Question/Réponse 18 ###
+Q1: What is the total number of sectors wiped on the destination drive?
+R1: 78165360 sectors were wiped on the destination drive.
+
+Q2: How many sectors were compared between the original and clone drives?
+R2: 27744192 sectors were compared between the original and clone drives.
+
+Q3: What is the hash value of the cloned drive?
+R3: The hash value of the cloned drive is 14205026303 92B27B30BEE8B0FFBA8C660FA1590D49.
+
+### Question/Réponse 19 ###
+Q1: What was the purpose of the test case DA-04?
+R1: The test case DA-04 aimed to verify the ability of X-Ways Forensics to create an unaligned and truncated clone of a source drive while calculating block-level hash values and preserving the source drive integrity.
+
+Q2: How did the test case DA-04 ensure that the cloned drive was truncated?
+R2: The test case DA-04 utilized the "fill none" option during tool settings, which resulted in the cloning process skipping the wiping of destination sectors. This approach ensured the creation of a truncated clone.
+
+Q3: What was the outcome of the test case DA-04?
+R3: The test case DA-04 confirmed the successful creation of an unaligned and truncated clone, with accurate block-level hash values and an intact source drive.
+
+### Question/Réponse 20 ###
+Q1: What was the purpose of the test case DA-06-SATA28?
+R1: The test case aimed to acquire a physical device using the access interface AI and create an image file.
+
+Q2: Which assertions were verified in the test case?
+R2: The test case verified that the source was acquired using the AI interface, the source type was DS, the execution environment was XE, and an image file was created on the FS file system.
+
+Q3: What was the outcome of the test case?
+R3: The test case achieved the expected results, confirming that the tool successfully acquired the physical device and created the image file as intended.
+
+### Question/Réponse 21 ###
+Q1: What was the purpose of the write block mentioned in the log?
+R1: The write block was a Tableau Forensic SATA/IDE Bridge, which was used to connect the drive to the computer.
+
+Q2: How did the tool verify the integrity of the source data during the acquisition process?
+R2: The tool verified the integrity of the source data by generating a SHA-256 hash of the source data and comparing it to the hash of the acquired data.
+
+Q3: What is the format of the created image file?
+R3: The created image file is in e01 format.
+
+### Question/Réponse 22 ###
+Q1: What was the purpose of the test case DA-07-F32?
+R1: The purpose of the test case DA-07-F32 was to acquire a digital source of type DS to an image file.
+
+Q2: What were the assertions and results of the test case DA-07-F32?
+R2: The test case included assertions related to the access interface, digital source acquisition, execution environment, image file creation, sector acquisition accuracy, and hash calculation. The results confirmed that the tool met the expectations for all of the asserted conditions.
+
+Q3: What was the role of the tester in the test case DA-07-F32?
+R3: The tester, jrr, was responsible for executing the test case, collecting the results, and verifying that the tool performed as expected.
+
+### Question/Réponse 23 ###
+Q1: What was the purpose of the write block setting "FastBloc IDE"?
+R1: The "FastBloc IDE" write block setting is likely designed to optimize the performance of the acquisition process by buffering data before writing it to disk. This can improve efficiency and reduce the risk of data loss during acquisition.
+
+Q2: How does the "re-verify" option in the tool settings influence the acquisition process?
+R2: The "re-verify" option instructs the tool to perform a checksum verification of the acquired data after the process is complete. This ensures that the acquired data is accurate and has not been corrupted during acquisition.
+
+Q3: What is the significance of the "image-format dd" setting in the tool configuration?
+R3: The "image-format dd" setting specifies that the acquired data should be saved in a raw, sector-by-sector format. This format preserves all the original data, including metadata and file systems, making it suitable for forensic analysis.
+
+### Question/Réponse 24 ###
+Q1: How many sectors were wiped during the drive setup process?
+R1: 156301488 sectors were wiped with 50.
+
+Q2: What is the total number of sectors compared between the original and clone drives?
+R2: 120103200 sectors were compared.
+
+Q3: How many sectors matched between the original and clone drives?
+R3: 120102732 sectors matched between the original and clone drives.
+
+### Question/Réponse 25 ###
+Q1: What is the purpose of the "Write Block" setting in the tool's settings?
+R1: The "Write Block" setting specifies the hardware device that will be used to write the acquired data to during the acquisition process.
+
+Q2: How does the tool handle insufficient space on the destination device when creating an image file?
+R2: If there is insufficient space on the destination device to contain the image file, the tool will notify the user and continue the acquisition process on another available device that supports destination device switching.
+
+Q3: What information is logged in the X-Ways logfile.txt file?
+R3: The X-Ways logfile.txt file contains significant information about the acquisition process, including the source and destination drives, the number of sectors acquired, and the hash values of the acquired data.
+
+### Question/Réponse 26 ###
+Q1: What was the purpose of wiping 503808 sectors on the destination drive?
+R1: The sectors were wiped with the C2 command, which is commonly used to securely erase data on flash storage devices.
+
+Q2: How did the comparison between the original and clone drives verify the integrity of the cloned data?
+R2: The comparison confirmed that the sectors copied between the two drives were identical, indicating that the cloning process was successful and the data was intact.
+
+Q3: What does the "Unaligned clone" designation in the tool settings mean?
+R3: An unaligned clone means that the cloned data was not aligned to the block size of the destination drive. This can potentially lead to performance issues or data corruption in some cases.
+
+### Question/Réponse 27 ###
+Q1: What was the reason for the discrepancy between the original and clone drives?
+R1: The comparison revealed that 3 sectors differed due to a difference of 3 bytes in those sectors.
+
+Q2: How many sectors were successfully copied during the cloning process?
+R2: Out of the 10,485,760 sectors analyzed, 10,485,760 sectors were successfully copied.
+
+Q3: What was the fill method used during the cloning process?
+R3: The test case did not specify any fill method, indicating that the cloning process used the default settings of X-Ways Forensics.
+
+### Question/Réponse 28 ###
+Q1: What was the purpose of wiping 80043264 sectors on the destination drive?
+R1: The purpose of wiping 80043264 sectors on the destination drive was to erase any existing data and prepare it for the cloning process.
+
+Q2: How many sectors were compared between the original and clone drives?
+R2: 8401932 sectors were compared between the original and clone drives.
+
+Q3: What was the number of sectors that differed between the original and clone drives?
+R3: 3 sectors differed between the original and clone drives.
+
+### Question/Réponse 29 ###
+Q1: What was the purpose of wiping 57 sectors on the destination drive?
+R1: The purpose of wiping 57 sectors on the destination drive was to ensure a clean slate for the cloned data.
+
+Q2: Why did the test case DA -14-F32X result in 3 sectors differing between the original and cloned drives?
+R2: The test case encountered 3 sectors that differed due to unaligned cloning, where sectors were written to different disk addresses on the clone than on the source drive.
+
+Q3: What was the intended outcome of the DA -14-FW test case?
+R3: The DA -14-FW test case aimed to create an unaligned clone from an image file, ensuring accurate sector-to-sector copying without modifying excess sectors on the clone destination device.
+
+### Question/Réponse 30 ###
+Q1: What is the main difference between the original drive and the cloned drive?
+R1: The original drive has 1654695 fewer sectors than the cloned drive.
+
+Q2: How many sectors were wiped on the destination drive?
+R2: 78165360 sectors were wiped on the destination drive.
+
+Q3: What is the hash value of the excess destination partition sectors?
+R3: The hash value of the excess destination partition sectors is 027E7E6DEF7CB64E9861C847B960B0409C706CDD.
+
+### Question/Réponse 31 ###
+Q1: What were the assertions made in the DA-14-SCSI test case?
+R1: The assertions stated that the tool executes in execution environment XE, that a clone is created from an image file, that the clone is created using access interface DST- AI, and that if an unaligned clone is created, each sector written to the clone is accurately written to the same disk address on the clone that the sector occupied on the digital source.
+
+Q2: What was the purpose of wiping sectors before comparing the original and cloned drives in the DA-14-THUMB test case?
+R2: The purpose of wiping sectors was to ensure that any existing data on the cloned drive was erased, allowing for a clean comparison of the original and cloned drives.
+
+Q3: What was the outcome of the DA-14-THUMB test case?
+R3: The outcome of the DA-14-THUMB test case was that the expected results were achieved, indicating that the tool successfully created an unaligned clone from the image file.
+
+### Question/Réponse 32 ###
+Q1: What was the purpose of the test case DA-14-USB?
+R1: The test case aimed to verify the functionality of creating an unaligned clone from an image file.
+
+Q2: What was the reason for creating a truncated clone in the DA-17 test case?
+R2: The insufficient space on the clone device resulted in the creation of a truncated clone.
+
+Q3: How did the tool notify the user about the truncated clone creation in the DA-17 test case?
+R3: The tool displayed a message indicating that a truncated clone had been created.
+
